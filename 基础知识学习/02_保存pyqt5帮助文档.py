@@ -10,6 +10,6 @@ sys.stdout.close()
 # 恢复 sys.stdout 的默认行为
 sys.stdout = sys.__stdout__
 # 恢复输出到控制台
-print(123)
+
 
 
