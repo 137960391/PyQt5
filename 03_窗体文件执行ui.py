@@ -8,7 +8,6 @@ def b_click():
     print('按钮被点击!')
 
 
-
 # 创建一个Qt应用程序对象
 app = QtWidgets.QApplication(sys.argv)
 # 创建一个QWidget窗口并打印出来
