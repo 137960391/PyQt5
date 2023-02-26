@@ -7,13 +7,9 @@ class MainWnd(QWidget):
         super().__init__()
         self.setWindowTitle('title')
         self.resize(600, 400)
-        self.set_label()
-        self.set_button()
+        self.init()
 
-    def set_label(self):
-        pass
-
-    def set_button(self):
+    def init(self):
         pass
 
 
