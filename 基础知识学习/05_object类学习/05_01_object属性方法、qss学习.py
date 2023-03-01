@@ -39,7 +39,7 @@ class MainWnd(QWidget):
         label1.setObjectName('hel')
         label1.setText('label1')
         label1.move(200, 200)
-
+        
         label2 = QLabel(self)
         # 通过设置objectname达到类似css id选择器效果
         # label2.setObjectName('wol')
